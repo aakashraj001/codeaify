@@ -1,14 +1,18 @@
 import React from 'react';
-import './navbar.css';
+import './navbar.css'
 
-const Navbar = () => {
+const Navbar = ({ scrollToSection, aboutRef, servicesRef, contactRef }) => {
   return (
-
-<nav className="navbar">
-    <p>logo</p>
-    
-</nav>
-);
+    <header className="navbar">
+      <nav>
+        <ul>
+          <li onClick={() => scrollToSection(aboutRef)}>About Us</li>
+          <li onClick={() => scrollToSection(servicesRef)}>Services</li>
+          <li onClick={() => scrollToSection(contactRef)}>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
 };
 
 export default Navbar;
