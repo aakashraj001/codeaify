@@ -7,6 +7,7 @@ import About from './pages/about/about'
 import Navbar from './pages/components/navbar/navbar'
 import Contact from './pages/contact/contact'
 import Services from './pages/services/service'
+import Footer from './pages/components/footer/footer'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -24,12 +25,13 @@ function App() {
         servicesRef={servicesRef}
         contactRef={contactRef}
       />
-      <main >
+      <main>
         {/* Pass the refs to the respective components */}
-        <About className='pt-[10vh]' ref={aboutRef} />
+        <About ref={aboutRef} />
         <Services ref={servicesRef} />
         <Contact ref={contactRef} />
       </main>
+      <Footer/>
     </>
   )
 }
