@@ -8,7 +8,7 @@ const Navbar = ({ scrollToSection, aboutRef, servicesRef, contactRef, homeRef,fe
       <nav className="flex flex-row items-center justify-between mx-auto h-[12vh] w-[70vw]">
         <div className="flex items-center justify-start gap-8">
           <img
-            className="w-[15vw] h-[10vh] flex object-contain"
+            className="w-[10vw] h-[8vh] flex justify-start object-cover"
             src={logo}
             aria-label="Logo"
           />
@@ -18,7 +18,7 @@ const Navbar = ({ scrollToSection, aboutRef, servicesRef, contactRef, homeRef,fe
           <button className="border-[1px] border-gray-light hover:bg-orange-700 text-gray-darkest   py-2 px-8 rounded-[50px]">
             Signin
           </button>
-          <button className="bg-blue-dark hover:bg-blue-700 text-white py-2 px-8 rounded rounded-[50px]">
+          <button className="bg-blue-dark hover:bg-blue-700 bg-blue-light  text-white py-2 px-8 rounded rounded-[50px]">
             Register
           </button>
         </div>

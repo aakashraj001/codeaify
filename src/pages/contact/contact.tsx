@@ -47,7 +47,7 @@ const Contact = forwardRef((props, ref) => {
               </div>
               <div className="mb-4 flex flex-col">
                 <label className="" htmlFor="message">Message</label>
-                <textarea name="" class="form-control h-auto" id="message" cols="30" rows="5"></textarea>
+                <textarea name="" className="form-control h-auto" id="message" cols="30" rows="5"></textarea>
               </div>
               <button type="submit" className="p-4 text-white rounded-[50px] bg-blue-dark">Send Message</button>
             </form>
