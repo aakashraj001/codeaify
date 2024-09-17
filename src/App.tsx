@@ -9,7 +9,7 @@ import Contact from './pages/contact/contact'
 import Services from './pages/services/service'
 import Footer from './pages/components/footer/footer'
 import Home from './pages/home/home'
-import Feature from './pages/features/features'
+import Feature from './pages/features/FeaturePage'
 
 function App() {
   // const [count, setCount] = useState(0)

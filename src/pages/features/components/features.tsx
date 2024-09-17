@@ -1,20 +1,20 @@
 import React, { forwardRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import riaz from '../../assets/images/riaz.png'
+import riaz from '../../../assets/images/riaz.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import dashboard from '../../assets/images/dashboard.png'
+import dashboard from '../../../assets/images/dashboard.png'
 import './feature.css'
 
 
-const Feature = forwardRef((props, ref) => {
+const Feature = () => {
   useEffect(() => {
     Aos.init()
   }, []);
 
   return (
-    <section ref={ref} className='h-[100vh] w-full pt-[18vh]'>
+    <section  className='h-[100vh] w-full pt-[18vh]'>
       <div className='max-w-[70vw] mx-auto items-center gap-10 flex flex-row'>
         <div className='flex justify-between'>
           <div className='w-[33%] flex flex-col'>
@@ -59,6 +59,6 @@ const Feature = forwardRef((props, ref) => {
       </div>
     </section>
   );
-});
+};
 
 export default Feature;

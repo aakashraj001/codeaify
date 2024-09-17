@@ -39,7 +39,22 @@ module.exports = {
         light: "#e0e6ed",
         lightest: "#f9fafc",
       },
+      green: {
+        light:'#6fe7dd',
+      },
+      yellow: {
+        light:'#ffc93c',
+      },
+      red :{
+        light:'#f73859'
+      },
+      blue:{
+        light:'#407BFF'
+      }
     },
+    font:{
+      eighteen:'18px'
+    }
   },
   plugins: [],
 };
