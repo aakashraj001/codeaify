@@ -1,0 +1,17 @@
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: var(--fontSecondary);
+}
+
+.form-control {
+    border: none;
+    font-size: 16px;
+    height: 45px;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    border-bottom: 1px solid #43434d;
+    border-radius: 0;
+    color: #000000;
+}

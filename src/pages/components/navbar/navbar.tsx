@@ -8,7 +8,7 @@ const Navbar = ({ scrollToSection, aboutRef, servicesRef, contactRef, homeRef,fe
       <nav className="flex flex-row items-center justify-between mx-auto h-[12vh] w-[70vw]">
         <div className="flex items-center justify-start gap-8">
           <img
-            className="w-[15vw] h-[15vh] flex object-contain"
+            className="w-[15vw] h-[10vh] flex object-contain"
             src={logo}
             aria-label="Logo"
           />
