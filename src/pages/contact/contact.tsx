@@ -25,7 +25,7 @@ const Contact = forwardRef((props, ref) => {
           </div>
         </div>
         <div className="flex flex-wrap">
-          <div className="flex w-[60%]">
+          <div className="flex w-[60%] text-fontSecondary">
             <form className="block aos-init aos-animate w-full" data-aos="fade-up" data-aos-delay="100">
               <div className="flex gap-[10%] flex-wrap">
                 <div className="flex flex-col w-[45%]">

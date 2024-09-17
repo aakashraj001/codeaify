@@ -21,6 +21,15 @@ function App() {
   const scrollToSection = (elementRef) => {
     elementRef.current.scrollIntoView({ behavior: 'smooth' });
   };
+
+   window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      if (window.scrollY > 20 && header) {
+        header.classList.add('scrolled');
+      } else if(header) {
+        header.classList.remove('scrolled');
+      }
+    });
   return (
     <>
       <Navbar

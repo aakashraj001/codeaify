@@ -4,7 +4,7 @@ import logo from '../../../assets/images/logo.png'
 
 const Navbar = ({ scrollToSection, aboutRef, servicesRef, contactRef, homeRef,featuresRef }) => {
   return (
-    <header className="bg-white fixed w-full z-50">
+    <header id="header" className="bg-white fixed w-full z-50 shadow-on-scroll">
       <nav className="flex flex-row items-center justify-between mx-auto h-[12vh] w-[70vw]">
         <div className="flex items-center justify-start gap-8">
           <img
