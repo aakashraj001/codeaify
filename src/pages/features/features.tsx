@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = React.forwardRef((props, ref) => (
+const Feature = React.forwardRef((props, ref) => (
   <section ref={ref} className='h-[100vh] w-full pt-[18vh]'>
     <div className='w-[70vw] mx-auto'>
     <h2>About</h2>
@@ -9,4 +9,4 @@ const About = React.forwardRef((props, ref) => (
   </section>
 ));
 
-export default About;
+export default Feature;
