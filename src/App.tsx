@@ -9,6 +9,7 @@ import Contact from './pages/contact/contact'
 import Services from './pages/services/service'
 import Footer from './pages/components/footer/footer'
 import Home from './pages/home/home'
+import Feature from './pages/features/features'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,7 +17,7 @@ function App() {
   const servicesRef = useRef(null);
   const contactRef = useRef(null);
   const homeRef = useRef(null);
-  
+  const featuresRef =useRef(null)
   const scrollToSection = (elementRef) => {
     elementRef.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -25,6 +26,7 @@ function App() {
       <Navbar
         scrollToSection={scrollToSection}
         homeRef={homeRef}
+        featuresRef={featuresRef}
         aboutRef={aboutRef}
         servicesRef={servicesRef}
         contactRef={contactRef}
@@ -32,6 +34,7 @@ function App() {
       <main>
         {/* Pass the refs to the respective components */}
         <Home ref={homeRef}/>
+        <Feature ref={featuresRef}/>
         <About ref={aboutRef} />
         <Services ref={servicesRef} />
         <Contact ref={contactRef} />
