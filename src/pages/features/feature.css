@@ -1,0 +1,12 @@
+.ul-check.primary li:before{
+    color: #407BFF;
+}
+
+.ul-check li:before {
+    position: absolute;
+    left: 0;
+    top: -.2rem;
+    content: "\e5ca";
+    font-size: 20px;
+    font-family: 'icomoon';
+}

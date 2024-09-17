@@ -18,6 +18,8 @@ module.exports = {
       white: "#ffff",
       primary: "#3498db",
       secondary: "#f1c40f",
+      fontSecondary: "#939393",
+      fontBg: "#f5f5f5f5",
       transparent: "transparent",
       current: "currentColor",
       blue: {
