@@ -1,5 +1,7 @@
 import React from 'react';
 import bgImage from '../../assets/images/home-bg.svg'
+import AOS from 'aos';
+AOS.init();
 
 const Home = React.forwardRef((props, ref) => (
     <section ref={ref} className=' w-full pt-[18vh]'>
@@ -12,7 +14,7 @@ const Home = React.forwardRef((props, ref) => (
                     <button className='border-[1px] border-[#2841ff] w-32 h-12 rounded-[50px]'>Pricing</button>
                 </div>
             </div>
-            <div className='flex h-[30vw] w-[100vh]'>
+            <div  className='flex h-[30vw] w-[100vh]' data-aos="fade-right" data-aos-delay="400">
                 <img src={bgImage} alt="image" />
             </div>
         </div>
