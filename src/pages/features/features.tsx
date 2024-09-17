@@ -7,7 +7,7 @@ import riaz from '../../assets/images/riaz.png'
 const Feature = React.forwardRef((props, ref) => (
     <section ref={ref} className='h-[100vh] w-full pt-[18vh]'>
         <div className='max-w-[70vw] mx-auto items-center gap-10 flex flex-row' >
-            <div>
+            <div className='flex justify-between'>
                 <div className='w-[33%] flex flex-col'>
                     <div className='mb-6'>
                         <span className='font-[700] text-[14px] text-[#407BFF]'>DIGITAL SERVICE</span>
